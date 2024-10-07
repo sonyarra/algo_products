@@ -122,7 +122,7 @@ _Product(): Конструктор по умолчанию_
 
 - Проверка корректности: Не требуется, так как инициализирует поля значениями по умолчанию;
 
-**Product(const std::string& name, double mass, double temperature, double maxTemperature, double minTemperature, double heatCapacity): Конструктор с параметрами**
+_Product(const std::string& name, double mass, double temperature, double maxTemperature, double minTemperature, double heatCapacity): Конструктор с параметрами_
 
 Список параметров:
 
