@@ -104,7 +104,7 @@ FROZEN (заморожено)
 
 |код|назначение|список параметров|значения параметров по умолчанию|
 |---------------|--------------------|---------------|--------------------|
-|![const_1](./pictures/const1.jpg)|Создает объект класса Product с начальными значениями для всех полей|не имеет|name_ = "" (пустая строка), mass_ = 0, temperature_ = 0, maxTemperature_ = 0, minTemperature_ = 0, state_ = NORMAL, heatCapacity_ = 0|
-|![const_2](./pictures/const2.jpg)|Создает объект класса Product с заданными значениями для всех полей|name: const std::string&, mass: double, temperature: double, maxTemperature: double, minTemperature: double, heatCapacity: double|нет, все параметры обязательны|
+|![const_1](./pictures/const_1.png)|Создает объект класса Product с начальными значениями для всех полей|не имеет|name_ = "" (пустая строка), mass_ = 0, temperature_ = 0, maxTemperature_ = 0, minTemperature_ = 0, state_ = NORMAL, heatCapacity_ = 0|
+|![const_2](./pictures/const_2.png)|Создает объект класса Product с заданными значениями для всех полей|name: const std::string&, mass: double, temperature: double, maxTemperature: double, minTemperature: double, heatCapacity: double|нет, все параметры обязательны|
 
   Поскольку в этом коде все поля класса - простые типы данных (строки, числа), то для них деструктор не нужен, так как освобождение памяти происходит автоматически, когда объект уничтожается.
